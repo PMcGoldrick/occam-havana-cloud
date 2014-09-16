@@ -8,7 +8,7 @@ mod 'ceilometer',
 # OK
 mod 'cinder',
 	:git => 'https://github.com/stackforge/puppet-cinder.git',
-	:ref => 'stable/havana'
+	:ref => 'stable/icehouse'
 
 mod 'corosync',
   :git => 'https://github.com/puppetlabs/puppetlabs-corosync.git',
@@ -22,7 +22,7 @@ mod 'erlang',
 # OK
 mod 'glance',
   :git => 'https://github.com/stackforge/puppet-glance.git',
-  :ref => 'stable/havana'
+  :ref => 'stable/icehouse'
 
 # OK
 mod 'haproxy',
@@ -34,9 +34,9 @@ mod 'haproxy',
 # Also see: OC-789
 mod 'horizon',
   :git => 'https://github.com/stackforge/puppet-horizon.git',
-  # This is original ref we use should be upgraded to main stable/havana
+  # This is original ref we use should be upgraded to main stable/icehouse
   #:ref => 'aea8538c370b4bacc6d117f572fd6af74d05d48d'
-  :ref => 'stable/havana'
+  :ref => 'stable/icehouse'
 
 # OK
 mod 'java',
@@ -47,7 +47,7 @@ mod 'java',
 # OK
 mod 'keystone',
 	:git => 'https://github.com/stackforge/puppet-keystone.git',
-	:ref => 'stable/havana'
+	:ref => 'stable/icehouse'
 
 # Is it really needed?
 # OK
@@ -69,17 +69,17 @@ mod 'mysql',
 # OK
 mod 'neutron',
 	:git => 'https://github.com/stackforge/puppet-neutron.git',
-	:ref => 'stable/havana'
+	:ref => 'stable/icehouse'
 
 # OK
 mod 'nova',
 	:git => 'https://github.com/stackforge/puppet-nova.git',
-	:ref => 'stable/havana'
+	:ref => 'stable/icehouse'
 
 # OK
 mod 'openstack',
 	:git => 'https://github.com/stackforge/puppet-openstack.git',
-	:ref => 'stable/havana'
+	:ref => 'stable/icehouse'
 
 # update module to 0.3.0
 # OK
@@ -100,12 +100,12 @@ mod 'ssh',
 	#:ref => '10675c0d80511a8cdd514af67b695887fa97ec40'
   :ref => 'v2.3.6'
 
-# Original is 2 commits behind stable/havana. Be careful
+# Original is 2 commits behind stable/icehouse. Be careful
 # OK
 mod 'swift',
 	:git => 'https://github.com/stackforge/puppet-swift.git',
 	#:ref => '98fe9219e35c65cf3db75bf79b9d12cead61f475'
-  :ref => 'stable/havana'
+  :ref => 'stable/icehouse'
 
 # Should be updated
 # OK
